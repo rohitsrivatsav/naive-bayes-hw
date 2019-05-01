@@ -18,9 +18,17 @@ Questions.
 
 In general, what makes the Naive Bayes Classifier so `naive`?
 
+- It is naive because it assumes all features are independent.
+
 What is the difference between the Bernoulli, Gaussian and Multinomial Naive Bayes Classifiers?
 
+- Bernoulli is when features are 0 or 1
+- Multinomial is when features are counts
+- Gaussian is when features are continuous and normally distributed
+
 Can you use the Naive Bayes Classifier if your features are not independent?
+
+- You shouldn't, as that's the primary assumption before using this classifier.
 
 ### Part III
 
